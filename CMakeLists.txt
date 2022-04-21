@@ -11,15 +11,15 @@ project(${MAIN_PROJECT_NAME})
 add_subdirectory(src)
 
 # third party libs
-set(THIRD_PARTY_LIBRARIES_DIR
+set(MAIN_LIBRARIES_DIR
     ${CMAKE_SOURCE_DIR}/libs
 )
-set(THIRD_PARTY_LIBRARIES 
+set(MAIN_LIBRARIES 
     tcal
     cpp-httplib
 )
-foreach(LIBRARY ${THIRD_PARTY_LIBRARIES})
-    add_subdirectory("${THIRD_PARTY_LIBRARIES_DIR}/${LIBRARY}")
+foreach(LIBRARY ${MAIN_LIBRARIES})
+    add_subdirectory("${MAIN_LIBRARIES_DIR}/${LIBRARY}")
 endforeach(LIBRARY)
 
 # gtest
