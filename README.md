@@ -17,5 +17,5 @@ cmake --install . --prefix ~/cbin
 
 ## TODO
 
-[ ] add boost lib
-[ ] add http lib
+- [ ] add boost lib
+- [ ] add http lib
