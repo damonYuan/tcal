@@ -4,6 +4,7 @@ README
 ## How to build, test and install
 
 ```
+git submodule update --init --recursive
 cmake -S . -B build
 cmake --build build
 cd build && ctest
