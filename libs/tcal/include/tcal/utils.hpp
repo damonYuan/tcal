@@ -5,6 +5,7 @@
 
 namespace tcal {
     std::string GetLibVersion();
+    int GetThree();
 }
 
 #endif

@@ -7,4 +7,5 @@ TEST(MainTest, BasicAssertions) {
   EXPECT_STRNE("hello", "world");
   // Expect equality.
   EXPECT_EQ(tcal::GetLibVersion(), "tcal Lib Version 1.0");
+  EXPECT_EQ(tcal::GetThree(), 3);
 }
