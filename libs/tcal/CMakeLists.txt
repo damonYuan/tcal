@@ -34,9 +34,6 @@ target_include_directories(${LIBRARY_NAME} INTERFACE
     $<INSTALL_INTERFACE:include>
 )
 
-# third party libs
-# target_link_libraries(${LIBRARY_NAME} mytest)
-
 # install rules
 install(TARGETS ${LIBRARY_NAME} DESTINATION lib)
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/tcal_conf.h" DESTINATION include)
