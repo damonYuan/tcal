@@ -19,3 +19,4 @@ cmake --install . --prefix ~/cbin
 
 - [ ] add boost lib
 - [ ] add http lib
+- [ ] dynamic libs
