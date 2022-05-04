@@ -8,8 +8,10 @@ set(LIBRARY_HEADERS_DIR
     include/${LIBRARY_NAME}
 )
 set(LIBRARY_HEADERS
-${LIBRARY_HEADERS_DIR}/all.hpp
+    ${LIBRARY_HEADERS_DIR}/all.hpp
     ${LIBRARY_HEADERS_DIR}/utils.hpp
+    ${LIBRARY_HEADERS_DIR}/calendars/all.hpp
+    ${LIBRARY_HEADERS_DIR}/daycounters/all.hpp
 )
 set(LIBRARY_SOURCE_DIR
     src
