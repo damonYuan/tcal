@@ -30,9 +30,9 @@ Try `curl -L  http://www.hkex.com.hk/News/HKEX-Calendar/Subscribe-Calendar?sc_la
 ```
 git submodule update --init --recursive
 cmake -S . -B build
+cmake --build build --target test
 cmake --build build
-cd build && ctest
-cmake --install . --prefix ~/cbin
+cmake --install build --prefix ~/cbin
 ```
 
 ## How to uninstall

@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libs/httplib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 281,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"libs/httplib/httplib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/httplib",
+			"paths" : 
+			[
+				"cmake-build-debug/libs/httplib/httplibConfig.cmake",
+				"cmake-build-debug/libs/httplib/httplibConfigVersion.cmake",
+				"libs/httplib/cmake/FindBrotli.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/httplib",
+			"exportName" : "httplibTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "httplib::@64e3985658883c17d30a",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"libs/httplib/CMakeFiles/Export/lib/cmake/httplib/httplibTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/httplib",
+		"source" : "libs/httplib"
+	}
+}

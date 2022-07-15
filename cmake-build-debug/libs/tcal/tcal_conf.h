@@ -1,0 +1,2 @@
+#define TCAL_VERSION_MAJOR 1
+#define TCAL_VERSION_MINOR 0

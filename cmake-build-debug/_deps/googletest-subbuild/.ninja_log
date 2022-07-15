@@ -1,0 +1,21 @@
+# ninja log v5
+0	65	1657812546000000000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	4ba7d1980d1e3e97
+0	65	1657812546000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	4ba7d1980d1e3e97
+65	2412	1657812549000000000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	b13f3b534fbc6311
+65	2412	1657812549000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	b13f3b534fbc6311
+2412	2431	1657812549000000000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	d83a07a704f578
+2412	2431	1657812549000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	d83a07a704f578
+2431	2449	1657812549000000000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	4ae7d2f7b9970bb5
+2431	2449	1657812549000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	4ae7d2f7b9970bb5
+2449	2467	1657812549000000000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	4470616e540a0af0
+2449	2467	1657812549000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	4470616e540a0af0
+2467	2486	1657812549000000000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	73ccf8db97d829c6
+2467	2486	1657812549000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	73ccf8db97d829c6
+2486	2505	1657812549000000000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	87620b717d3f895a
+2486	2505	1657812549000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	87620b717d3f895a
+2505	2523	1657812549000000000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	cdb983129322382a
+2505	2523	1657812549000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	cdb983129322382a
+2523	2548	1657812549000000000	CMakeFiles/googletest-populate-complete	a5cc2cb61e638a15
+2523	2548	1657812549000000000	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	a5cc2cb61e638a15
+2523	2548	1657812549000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	a5cc2cb61e638a15
+2523	2548	1657812549000000000	/Volumes/CaseSensitive/tcal/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	a5cc2cb61e638a15
